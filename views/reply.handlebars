@@ -1,0 +1,9 @@
+<h1>response all posts from url: </h1>
+{{#each body}}
+<div class="alert alert-primary" role="alert">
+    id: {{id}} <br>
+  Title: {{title}}
+</div>
+{{else}}
+<p>No Data!</p>
+{{/each}}
